@@ -28,8 +28,8 @@ settings.numberOfChannels   = 8;
 % based only. For Real sample files it skips the number of bytes as indicated
 % here. For I/Q files it skips twice the number of bytes as indicated here
 % to consider both I and Q samples
-settings.skipNumberOfSamples     = 0*2.5e6;
-settings.skipNumberOfSamples     = 1*53e6;
+% settings.skipNumberOfSamples     = 0*2.5e6;
+settings.skipNumberOfSamples     = 0*8.1838e6;
 settings.skipNumberOfBytes     = 0;
 
 %% Raw signal file name and other parameter ===============================
@@ -41,13 +41,8 @@ settings.skipNumberOfBytes     = 0;
 %     %'C:\Users\gps\Desktop\SihaoZ\dynamic\9_13_2010_14h_53min_25s\9_13_2010_14h_53min_25s_SDR.bin';
 %     %'C:\Nordnav-Rx_v3-6-1\h22m49up.sim';
 % settings.fileName           =  'C:\gnss0.bin';
-% settings.fileName = 'C:\Users\AltBOC\Documents\MATLAB\sdr\data\201404150757amUTCG\v2\gnsa14.bin';
-% settings.fileName = 'C:\Users\AltBOC\Documents\MATLAB\gnsa14.bin';
-% settings.fileName = 'D:\000Unicorn\IFRecords\GN3Sv3\dump_mode1.bin'; %
-% 60s, 20170508, 0:46, UTC+1, BST %% I & Q samples
-% settings.fileName = 'D:\000Unicorn\IFRecords\GN3Sv3\dump_mode3.bin'; %
-% 60s, 20170508, 2:20, UTC+1, BST %% only real-valued samples
-settings.fileName = 'C:\Users\AltBOC\Downloads\SoftGNSS-master\SoftGNSS-master\gnss0.bin';
+settings.fileName = 'C:\Users\AltBOC\Documents\MATLAB\sdr\data\201404150757amUTCG\v2\gnsa14.bin';
+settings.fileName = 'C:\Users\AltBOC\Documents\MATLAB\gnsa14.bin';
     
     
 % Data type used to store one sample
@@ -56,7 +51,6 @@ settings.dataType           = 'schar';
 % File Types
 %1 - 8 bit real samples S0,S1,S2,...
 %2 - 8 bit I/Q samples I0,Q0,I1,Q1,I2,Q2,...
-% settings.fileType           = 1;
 settings.fileType           = 2;
 
 % Intermediate, sampling and code frequencies
@@ -67,11 +61,6 @@ settings.IF                 = 38400;        %[Hz]
 settings.samplingFreq       = 16.3676e6/2;  %[Hz]
 settings.codeFreqBasis      = 1.023e6;      %[Hz]
 
-% % % % %% mode 3
-% % % % settings.IF                 = 14.58e6;        %[Hz]
-% % % % settings.samplingFreq       = 53e6;  %[Hz]
-% % % % settings.codeFreqBasis      = 1.023e6;      %[Hz]
-
 
 % Define number of chips in a code period
 settings.codeLength         = 1023;
@@ -81,8 +70,7 @@ settings.codeLength         = 1023;
 settings.skipAcquisition    = 0;
 % List of satellites to look for. Some satellites can be excluded to speed
 % up acquisition
-% % % % settings.acqSatelliteList   = [1:29 31 32];%[1:32];         %[PRN numbers]PRN32 was just launched (as of 2014 Apr 15) so it was not set active yet:accuracy indicated by decoded message:11
-settings.acqSatelliteList   = 1:32;
+settings.acqSatelliteList   = [1:29 31 32];%[1:32];         %[PRN numbers]PRN32 was just launched (as of 2014 Apr 15) so it was not set active yet:accuracy indicated by decoded message:11
 % Band around IF to search for satellite signal. Depends on max Doppler
 settings.acqSearchBand      = 14;           %[kHz]
 % Threshold for the signal presence decision rule
