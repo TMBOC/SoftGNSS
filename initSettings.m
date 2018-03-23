@@ -47,8 +47,7 @@ settings.skipNumberOfBytes     = 0;
 % 60s, 20170508, 0:46, UTC+1, BST %% I & Q samples
 % settings.fileName = 'D:\000Unicorn\IFRecords\GN3Sv3\dump_mode3.bin'; %
 % 60s, 20170508, 2:20, UTC+1, BST %% only real-valued samples
-settings.fileName = 'D:\000Unicorn\IFRecords\NUT4NT\dump4ch_ch2.bin';
-settings.fileName = 'I:\000_NUT4NT\GPS_L1_2016_10_22_140330.bin';
+settings.fileName = 'C:\Users\AltBOC\Downloads\SoftGNSS-master\SoftGNSS-master\gnss0.bin';
     
     
 % Data type used to store one sample
@@ -57,20 +56,21 @@ settings.dataType           = 'schar';
 % File Types
 %1 - 8 bit real samples S0,S1,S2,...
 %2 - 8 bit I/Q samples I0,Q0,I1,Q1,I2,Q2,...
-settings.fileType           = 1;
+% settings.fileType           = 1;
+settings.fileType           = 2;
 
 % Intermediate, sampling and code frequencies
 
 % settings.IF                 = 0e6;%-1e6;%10;      %[Hz]
 % settings.samplingFreq       = 2.5e6;%5e6;%2.048e6;    %[Hz]
-% % % % settings.IF                 = 38400;        %[Hz]
-% % % % settings.samplingFreq       = 16.3676e6/2;  %[Hz]
-% % % % settings.codeFreqBasis      = 1.023e6;      %[Hz]
-
-%% mode 3
-settings.IF                 = 14.58e6;        %[Hz]
-settings.samplingFreq       = 53e6;  %[Hz]
+settings.IF                 = 38400;        %[Hz]
+settings.samplingFreq       = 16.3676e6/2;  %[Hz]
 settings.codeFreqBasis      = 1.023e6;      %[Hz]
+
+% % % % %% mode 3
+% % % % settings.IF                 = 14.58e6;        %[Hz]
+% % % % settings.samplingFreq       = 53e6;  %[Hz]
+% % % % settings.codeFreqBasis      = 1.023e6;      %[Hz]
 
 
 % Define number of chips in a code period
