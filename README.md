@@ -11,3 +11,6 @@ PIN: crvi
 gnsa14.bin:
 URL: https://pan.baidu.com/s/1Kla89mZ4XCIzBcNKpKVYng
 PIN: 61p0
+
+# Update
+This receiver will receive a major update in one month.
