@@ -1,3 +1,11 @@
+%-----------------------------------------------------------------------------------
+% This code has been adapted by Xin Zhang for purposes of course
+% "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, 
+% Shanghai Jiao Tong University,
+% from the SoftGNSS v3.0 code base developed for the
+% text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
+% by Borre, Akos, et.al.
+%-----------------------------------------------------------------------------------
 % Script postProcessing.m processes the raw signal from the specified data
 % file (in settings) operating on blocks of 37 seconds of data.
 %
