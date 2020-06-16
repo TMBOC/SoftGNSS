@@ -1,11 +1,4 @@
-%-----------------------------------------------------------------------------------
-% This code has been adapted by Xin Zhang for purposes of course
-% "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, 
-% Shanghai Jiao Tong University,
-% from the SoftGNSS v3.0 code base developed for the
-% text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
-% by Borre, Akos, et.al.
-%-----------------------------------------------------------------------------------
+NOTE: This code has been adapted by Xin Zhang for purposes of course "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, Shanghai Jiao Tong University, from the SoftGNSS v3.0 code base developed for the text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach" by Borre, Akos, et.al.
 
 # SoftGNSS
 Current working ver. of SoftGNSS v3.1 for GN3sV2, GN3sV3, NT1065EVK, and NUT4NT samplers. All known updates included. Navigation module updated.
