@@ -1,3 +1,11 @@
+%-----------------------------------------------------------------------------------
+% This code has been adapted by Xin Zhang for purposes of course
+% "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, 
+% Shanghai Jiao Tong University,
+% from the SoftGNSS v3.0 code base developed for the
+% text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
+% by Borre, Akos, et.al.
+%-----------------------------------------------------------------------------------
 function [dout,mout,sout] = dms2mat(dms,n)
 
 %DMS2MAT Converts a dms vector format to a [deg min sec] matrix

@@ -1,3 +1,11 @@
+%-----------------------------------------------------------------------------------
+% This code has been adapted by Xin Zhang for purposes of course
+% "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, 
+% Shanghai Jiao Tong University,
+% from the SoftGNSS v3.0 code base developed for the
+% text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
+% by Borre, Akos, et.al.
+%-----------------------------------------------------------------------------------
 function word = parityCheck(word, D29Star, D30Star)
 %Checks the parity of the supplied 30bit word.If the parity check is not
 %passed, the program will be quit with error messages shown

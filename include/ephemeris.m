@@ -1,3 +1,11 @@
+%-----------------------------------------------------------------------------------
+% This code has been adapted by Xin Zhang for purposes of course
+% "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, 
+% Shanghai Jiao Tong University,
+% from the SoftGNSS v3.0 code base developed for the
+% text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
+% by Borre, Akos, et.al.
+%-----------------------------------------------------------------------------------
 % % % % function [eph, TOW] = ephemeris(bits, D30Star)
 % % % % %Function decodes ephemerides and TOW from the given bit stream. The stream
 % % % % %(array) in the parameter BITS must contain 1500 bits. The first element in

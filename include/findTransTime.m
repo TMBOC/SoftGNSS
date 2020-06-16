@@ -1,3 +1,11 @@
+%-----------------------------------------------------------------------------------
+% This code has been adapted by Xin Zhang for purposes of course
+% "AV423 Satellite Navigation" taught at School of Aeronautics & Astronautics, 
+% Shanghai Jiao Tong University,
+% from the SoftGNSS v3.0 code base developed for the
+% text: "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
+% by Borre, Akos, et.al.
+%-----------------------------------------------------------------------------------
 function transmitTime=...
     findTransTime(sampleNum,readyChnList,svTimeTable,trackResults)
 % findTransTime finds the transmitting time of each satellite at a specified
