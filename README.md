@@ -13,15 +13,15 @@ Please check Google Scholar for a complete list of Prof. Akos's recent publicati
 
 or using data file downloaded here:
 
-gnss0.bin:
+### gnss0.bin
 [Baidu Netdisk](https://pan.baidu.com/s/11dcgJer-Cz4HcFvoWQ_8_w) PIN: crvi
 
-or [Googledrive](https://drive.google.com/file/d/1QJzBehlsqkjN_NX6GtBDtODARB5SS1Yb/view?usp=sharing)
+   or [Googledrive](https://drive.google.com/file/d/1QJzBehlsqkjN_NX6GtBDtODARB5SS1Yb/view?usp=sharing)
 
-gnsa14.bin:
+### gnsa14.bin
 [Baidu Netdisk](https://pan.baidu.com/s/1Kla89mZ4XCIzBcNKpKVYng). PIN: 61p0
 
-or [GoogleDrive](https://drive.google.com/file/d/1SEveFaYKCw9DlSlD-XE5Fc3QWeILJ45T/view?usp=sharing)
+   or [GoogleDrive](https://drive.google.com/file/d/1SEveFaYKCw9DlSlD-XE5Fc3QWeILJ45T/view?usp=sharing)
 
 The two data files were collected using [SiGe GN3S Sampler v2](https://www.sparkfun.com/products/retired/8238) (OOP though...) and therefore,
 
